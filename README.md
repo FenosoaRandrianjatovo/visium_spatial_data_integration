@@ -257,11 +257,11 @@ echo "📥 Downloading Visium demo data..."
 mkdir -p Data/Visium_Spatial/rawData_mouseStStVisium/countTable_mouseStStVisium
 mkdir -p Data/Visium_spatial_with_ABs/rawData_mouseStStWithABsVisium
 
-# Download from your data source
+# Download from the  data source in Charlotte's lab: https://livercellatlas.org/download.php
 # Replace these URLs with actual data sources
-# wget -O Data/Visium_Spatial/rawData_mouseStStVisium/countTable_mouseStStVisium/matrix.mtx.gz "YOUR_MATRIX_URL"
-# wget -O Data/Visium_Spatial/rawData_mouseStStVisium/countTable_mouseStStVisium/barcodes.tsv.gz "YOUR_BARCODES_URL"
-# wget -O Data/Visium_Spatial/rawData_mouseStStVisium/countTable_mouseStStVisium/features.tsv.gz "YOUR_FEATURES_URL"
+# wget -O Data/Visium_Spatial/rawData_mouseStStVisium/countTable_mouseStStVisium/matrix.mtx.gz "https://drive.google.com/file/d/1G8mH9d2rFxFHQ2TiojeL2Ov2bH5gcNH_/view?usp=drive_link"
+# wget -O Data/Visium_Spatial/rawData_mouseStStVisium/countTable_mouseStStVisium/barcodes.tsv.gz "https://drive.google.com/file/d/1dMD2vHQM00ho3E2om8vv_VSIYfSH5wt-/view?usp=drive_link"
+# wget -O Data/Visium_Spatial/rawData_mouseStStVisium/countTable_mouseStStVisium/features.tsv.gz "https://drive.google.com/file/d/1H4Ysxt6XFaG6Y0Sa1Hmo7yp0vCnsi94S/view?usp=drive_link"
 
 echo "✅ Data download complete!"
 echo "🚀 Ready to run: python run_pipeline.py"
