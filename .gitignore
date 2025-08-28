@@ -1,0 +1,118 @@
+# Visium Spatial Transcriptomics Pipeline - .gitignore
+
+# ========================================
+# Python Environment & Dependencies
+# ========================================
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ========================================
+# Large Data Files (Download Instructions in README)
+# ========================================
+# Raw input data - too large for GitHub
+Data/
+*.h5ad
+*.h5
+*.mtx
+*.mtx.gz
+*.tsv.gz
+*.csv
+
+# ========================================
+# Generated Outputs (Pipeline Results)
+# ========================================
+# Processed data files
+processed_data/
+integrated_data/
+results/
+
+# Generated plots and visualizations
+plots/
+*.png
+*.pdf
+*.svg
+
+# Log files
+logs/
+*.log
+
+# ========================================
+# Cache & Temporary Files
+# ========================================
+cache/
+.scanpy/
+.cache/
+tmp/
+temp/
+*.tmp
+*.temp
+
+# ========================================
+# IDE & Editor Files
+# ========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ========================================
+# Jupyter Notebooks (if added later)
+# ========================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ========================================
+# System Files
+# ========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ========================================
+# Keep These Files
+# ========================================
+# Pipeline scripts (keep these!)
+!data_processing.py
+!spatial_integration.py
+!downstream_analysis.py
+!run_pipeline.py
+!test_pipeline.py
+!showcase_results.py
+!pipeline_summary.py
+
+# Documentation (keep these!)
+!README.md
+!requirements.txt
+!PIPELINE_SUCCESS.md
+
+# Example/demo files (small ones only)
+!example_data/
+!demo/
