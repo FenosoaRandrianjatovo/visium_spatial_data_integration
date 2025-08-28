@@ -298,9 +298,9 @@ If you use this pipeline in your research, please cite:
 ```bibtex
 @software{visium_spatial_integration,
   title={Visium Spatial Transcriptomics Integration Pipeline},
-  author={Your Name},
+  author={Fenosoa Randrianjatovo and Amadou Barry},
   year={2025},
-  url={https://github.com/your-username/visium-spatial-integration}
+  url={https://github.com/Fenosoa_Randrianjatovo/visium_spatial_integration}
 }
 ```
 
