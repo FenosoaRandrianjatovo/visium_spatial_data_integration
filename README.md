@@ -112,7 +112,7 @@ The pipeline generates comprehensive visualizations that showcase both technical
 ### **1. Clone Repository**
 
 ```bash
-git clone https://github.com/your-username/visium-spatial-integration.git
+git clone https://github.com/FenosoaRandrianjatovo/visium_spatial_integration.git
 cd visium-spatial-integration
 ```
 
