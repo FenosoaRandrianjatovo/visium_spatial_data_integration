@@ -45,7 +45,7 @@ Data/
 # Processed data files (HEAVY - users generate these)
 processed_data/
 integrated_data/
-results/
+# results/
 
 # Keep lightweight plots and visualizations (INCLUDE in repo)
 # plots/ - REMOVED from gitignore to include example outputs

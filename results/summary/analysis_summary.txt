@@ -1,0 +1,41 @@
+SPATIAL DATA INTEGRATION ANALYSIS SUMMARY
+==================================================
+
+DATASET OVERVIEW:
+--------------------
+Total spots: 7521
+Total genes: 2000
+Datasets: 2
+Clusters: 9
+Zonation groups: 6
+Samples: 6
+
+FILES GENERATED:
+--------------------
+1. processed_data/ - Preprocessed individual datasets
+2. integrated_data/ - Integrated dataset
+3. plots/ - Quality control and integration plots
+4. results/differential_expression/ - DE analysis results
+5. results/spatial_analysis/ - Spatial pattern analysis
+6. results/summary/ - Summary statistics and plots
+
+CLUSTER INFORMATION:
+--------------------
+Cluster 0: 1571 spots
+Cluster 1: 1514 spots
+Cluster 2: 1496 spots
+Cluster 3: 1274 spots
+Cluster 4: 993 spots
+Cluster 5: 294 spots
+Cluster 6: 188 spots
+Cluster 7: 100 spots
+Cluster 8: 91 spots
+
+ZONATION INFORMATION:
+--------------------
+Mid: 2821 spots
+Periportal: 2526 spots
+Central: 1028 spots
+PeriPortal: 865 spots
+Portal: 181 spots
+Capsule: 100 spots
