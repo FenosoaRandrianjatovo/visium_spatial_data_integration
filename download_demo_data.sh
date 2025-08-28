@@ -73,19 +73,19 @@ echo "   - 'zonationGroup': Tissue zones (Periportal, Central, Mid, Portal)"
 echo "   - Additional metadata columns are welcome"
 echo ""
 
-# Example download commands (commented out - users need real URLs)
+#   commands  Download 
 echo "💡 EXAMPLE DOWNLOAD COMMANDS:"
 echo "-----------------------------"
-echo "Once you have the URLs, uncomment and modify these commands:"
-echo ""
-echo "# wget -O Data/Visium_Spatial/rawData_mouseStStVisium/countTable_mouseStStVisium/matrix.mtx.gz 'YOUR_MATRIX_URL'"
-echo "# wget -O Data/Visium_Spatial/rawData_mouseStStVisium/countTable_mouseStStVisium/barcodes.tsv.gz 'YOUR_BARCODES_URL'"
-echo "# wget -O Data/Visium_Spatial/rawData_mouseStStVisium/countTable_mouseStStVisium/features.tsv.gz 'YOUR_FEATURES_URL'"
-echo "# wget -O Data/Visium_Spatial/annot_mouseStStVisium.csv 'YOUR_ANNOTATION_URL'"
-echo ""
-echo "# curl -o Data/Visium_spatial_with_ABs/rawData_mouseStStWithABsVisium/countTable_mouseStStVisiumWithABs.h5 'YOUR_H5_URL'"
-echo "# curl -o Data/Visium_spatial_with_ABs/annot_mouseStStWithABsVisium.csv 'YOUR_AB_ANNOTATION_URL'"
-echo ""
+
+
+wget -O Data/Visium_Spatial/rawData_mouseStStVisium/countTable_mouseStStVisium/matrix.mtx.gz "https://drive.usercontent.google.com/download?id=1G8mH9d2rFxFHQ2TiojeL2Ov2bH5gcNH_&export=download"
+wget -O Data/Visium_Spatial/rawData_mouseStStVisium/countTable_mouseStStVisium/barcodes.tsv.gz "https://drive.usercontent.google.com/uc?id=1dMD2vHQM00ho3E2om8vv_VSIYfSH5wt-&export=download"
+wget -O Data/Visium_Spatial/rawData_mouseStStVisium/countTable_mouseStStVisium/features.tsv.gz "https://drive.usercontent.google.com/uc?id=1H4Ysxt6XFaG6Y0Sa1Hmo7yp0vCnsi94S&export=download"
+
+wget -O Data/Visium_Spatial/annot_mouseStStVisium.csv "https://drive.usercontent.google.com/uc?id=1h6zxHRnwma6U92FAhLLEeofYowBKMBJf&export=download"
+curl -o Data/Visium_spatial_with_ABs/rawData_mouseStStWithABsVisium/countTable_mouseStStVisiumWithABs.h5 'https://drive.usercontent.google.com/uc?id=1thIWzSgOwcKsA_LkFro-eJ2magzFFWal&export=download'
+curl -o Data/Visium_spatial_with_ABs/annot_mouseStStWithABsVisium.csv 'https://drive.usercontent.google.com/uc?id=1QMqf5ADBwf8MKXIrEApk81xi-zQ7JB6U&export=download'
+
 
 # Validation
 echo "🔍 VALIDATION:"
