@@ -40,16 +40,13 @@ echo "---------------"
 echo "These files can be obtained from:"
 echo ""
 echo "📊 10X Genomics Public Datasets:"
-echo "   https://www.10xgenomics.com/resources/datasets"
+echo "   https://livercellatlas.org/download.php"
 echo ""
-echo "📚 GEO (Gene Expression Omnibus):"
-echo "   https://www.ncbi.nlm.nih.gov/geo/"
-echo "   Search for: 'Visium spatial transcriptomics liver'"
-echo ""
+
 echo "🔗 Original Publication Data:"
-echo "   Check the methods section of spatial transcriptomics papers"
-echo "   Look for liver zonation or hepatic spatial studies"
-echo ""
+echo "   Check the methods section of Spatial proteogenomics reveals distinct and evolutionarily conserved hepatic macrophage niches papers"
+echo "   https://www.sciencedirect.com/science/article/pii/S0092867421014811"
+
 
 # File format requirements
 echo "📝 FILE FORMAT REQUIREMENTS:"
@@ -74,7 +71,7 @@ echo "   - Additional metadata columns are welcome"
 echo ""
 
 #   commands  Download 
-echo "💡 EXAMPLE DOWNLOAD COMMANDS:"
+echo "💡DOWNLOAD COMMANDS:"
 echo "-----------------------------"
 
 
