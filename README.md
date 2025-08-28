@@ -113,9 +113,15 @@ The pipeline generates comprehensive visualizations that showcase both technical
 
 ```bash
 git clone https://github.com/FenosoaRandrianjatovo/visium_spatial_integration.git
-cd visium-spatial-integration
+cd visium_spatial_integration
 ```
-
+### **1. Installation of the requirements**
+```bash
+python -m venv .venv
+source .venv/bin/activate
+python install -r requirements.txt
+deactivate 
+```
 ### **2. Prepare Input Data**
 
 **⚠️ IMPORTANT**: The raw data files are too large for GitHub. You need to download them separately.
@@ -152,7 +158,7 @@ Data/
 ### **3. Run Pipeline**
 
 ```bash
-# Run the complete analysis (auto-installs dependencies)
+# Run the complete analysis (auto activation of the virtual enveroment)
 python run_pipeline.py
 ```
 
