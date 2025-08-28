@@ -128,6 +128,15 @@ deactivate
 
 #### **Download the Demo Dataset from Charlotte Scott and 	Martin Guilliams's Lab **
 
+
+### **Example Data Download Script**
+
+Run  this script to download demo data used in this repo:
+
+```bash
+./download_demo_data.sh
+```
+
 This pipeline uses mouse liver Visium spatial transcriptomics data. Create the following directory structure:
 
 ```bash
@@ -243,13 +252,6 @@ To use your own Visium data:
   - `zonationGroup`: Biological groupings (optional)
   - Additional metadata columns
 
-### **Example Data Download Script**
-
-Run  this script to download demo data used in this repo:
-
-```bash
-./download_demo_data.sh
-```
 
 
 ## 🔬 Scientific Applications
