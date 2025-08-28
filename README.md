@@ -353,23 +353,7 @@ harmonypy>=0.0.6       # Batch correction
 numpy<2.3              # Numerical computing (version locked)
 ```
 
-## 📖 Citation
 
-If you use this pipeline in your research, please cite:
-
-```bibtex
-@software{visium_spatial_integration,
-  title={Visium Spatial Transcriptomics Integration Pipeline},
-  author={Fenosoa Randrianjatovo and Amadou Barry},
-  year={2025},
-  url={https://github.com/Fenosoa_Randrianjatovo/visium_spatial_data_integration}
-}
-```
-
-**Key Methods:**
-- **Harmony**: Korsunsky et al. (2019) Nature Biotechnology
-- **Scanpy**: Wolf et al. (2018) Genome Biology  
-- **10X Visium**: 10X Genomics Spatial Gene Expression Solution
 
 ## 📄 License
 
@@ -394,3 +378,21 @@ git clone https://github.com/FenosoaRandrianjatovo/visium_spatial_data_integrati
 cd visium_spatial_data_integration
 python run_pipeline.py
 ```
+## 📖 Citation
+
+If you use this pipeline in your research, please cite:
+
+```bibtex
+@software{visium_spatial_integration,
+  title={Visium Spatial Transcriptomics Integration Pipeline},
+  author={Fenosoa Randrianjatovo and Amadou Barry},
+  year={2025},
+  url={https://github.com/Fenosoa_Randrianjatovo/visium_spatial_data_integration}
+}
+```
+
+**Key Methods:**
+- **Harmony**: Korsunsky et al. (2019) Nature Biotechnology
+- **SpatialGlue**: Yahui Long et al. (2024) Nature Methods
+- **Scanpy**: Wolf et al. (2018) Genome Biology  
+- **10X Visium**: 10X Genomics Spatial Gene Expression Solution
