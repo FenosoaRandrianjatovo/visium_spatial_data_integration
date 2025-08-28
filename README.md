@@ -94,18 +94,6 @@ The pipeline generates comprehensive visualizations that showcase both technical
 - **Biological Validation**: Clusters align with known liver zonation biology
 - **Multi-modal Enhancement**: Protein data refines spatial domain boundaries
 
-### **🧪 Multi-Modal Data Quality**
-
-<div align="center">
-  <img src="plots/visium_with_abs_qc_metrics.png" alt="Antibody Data QC" width="800"/>
-  <br><i>Quality control for the Visium + antibody dataset showing RNA and protein data integration quality</i>
-</div>
-
-**Multi-modal validation:**
-- **RNA Quality**: Standard transcriptomic QC metrics show high-quality data
-- **Protein Detection**: Successful antibody signal detection across 80+ markers
-- **Data Integration**: RNA and protein measurements from same spatial locations
-- **Biological Coherence**: Protein patterns complement RNA expression profiles
 
 ## 🚀 Quick Start
 
