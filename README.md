@@ -383,7 +383,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 ✅ **16,887 genes** analyzed across multiple samples  
 ✅ **Liver zonation patterns** clearly identified  
 ✅ **Multi-modal integration** of RNA + 80 proteins  
-✅ **Publication-ready figures** generated automatically  
+
 
 ---
 
