@@ -38,6 +38,75 @@ This pipeline successfully processes:
 3. **Integration Results**: Before/after comparison, batch correction assessment
 4. **Biological Insights**: Liver zonation patterns (Periportal → Central → Portal)
 
+## 🎨 Example Results & Visualizations
+
+The pipeline generates comprehensive visualizations that showcase both technical quality and biological insights. Below are example outputs demonstrating the pipeline's capabilities:
+
+### **📊 Quality Control & Data Overview**
+
+<div align="center">
+  <img src="plots/visium_spatial_qc_metrics.png" alt="Quality Control Metrics" width="800"/>
+  <br><i>Quality control metrics for the standard Visium spatial dataset showing gene/spot distributions, sample compositions, and spatial organization patterns</i>
+</div>
+
+**Key insights from QC plots:**
+- **Top Left**: Gene count distribution shows high-quality spots with 200-8000 genes detected
+- **Top Right**: Total count distribution indicates successful library preparation  
+- **Bottom Panels**: Sample distribution reveals balanced representation across 5 biological samples (JBO1-JBO4, CAP02)
+- **Spatial UMAP**: Clear zonation patterns visible in original spatial coordinates
+
+### **🗺️ Spatial Organization Patterns**
+
+<div align="center">
+  <img src="plots/visium_spatial_umap.png" alt="Spatial UMAP Patterns" width="800"/>
+  <br><i>Spatial UMAP embeddings revealing liver zonation patterns across multiple samples and biological annotations</i>
+</div>
+
+**Biological discoveries:**
+- **Zonation Gradient**: Clear spatial organization from Periportal (blue) → Mid (green) → Central (red) regions
+- **Cross-sample Consistency**: Zonation patterns preserved across different biological samples  
+- **Metabolic Organization**: Spatial arrangement reflects liver metabolic functions
+- **Sample Integration**: Multiple samples show consistent spatial biology
+
+### **🔗 Multi-Modal Integration Results**
+
+<div align="center">
+  <img src="plots/integration/spatialglue_integration_overview.png" alt="Integration Overview" width="800"/>
+  <br><i>Comprehensive integration assessment showing successful batch correction and dataset harmonization</i>
+</div>
+
+**Integration achievements:**
+- **Top Row**: Before/after integration comparison demonstrates effective batch correction
+- **Dataset Mixing**: Successful integration of standard Visium + antibody datasets
+- **Spatial Preservation**: Zonation patterns maintained during integration process
+- **Technical Success**: Batch effects removed while preserving biological variation
+
+### **🎯 Detailed Clustering & Cell Type Identification**
+
+<div align="center">
+  <img src="plots/integration/spatialglue_clusters_detailed.png" alt="Detailed Clusters" width="600"/>
+  <br><i>High-resolution clustering results revealing distinct spatial domains and cell populations</i>
+</div>
+
+**Clustering insights:**
+- **Spatial Domains**: Distinct clusters correspond to anatomical liver zones
+- **Cell Type Resolution**: Integration enhances cell type identification
+- **Biological Validation**: Clusters align with known liver zonation biology
+- **Multi-modal Enhancement**: Protein data refines spatial domain boundaries
+
+### **🧪 Multi-Modal Data Quality**
+
+<div align="center">
+  <img src="plots/visium_with_abs_qc_metrics.png" alt="Antibody Data QC" width="800"/>
+  <br><i>Quality control for the Visium + antibody dataset showing RNA and protein data integration quality</i>
+</div>
+
+**Multi-modal validation:**
+- **RNA Quality**: Standard transcriptomic QC metrics show high-quality data
+- **Protein Detection**: Successful antibody signal detection across 80+ markers
+- **Data Integration**: RNA and protein measurements from same spatial locations
+- **Biological Coherence**: Protein patterns complement RNA expression profiles
+
 ## 🚀 Quick Start
 
 ### **1. Clone Repository**

@@ -42,16 +42,16 @@ Data/
 # ========================================
 # Generated Outputs (Pipeline Results)
 # ========================================
-# Processed data files
+# Processed data files (HEAVY - users generate these)
 processed_data/
 integrated_data/
 results/
 
-# Generated plots and visualizations
-plots/
-*.png
-*.pdf
-*.svg
+# Keep lightweight plots and visualizations (INCLUDE in repo)
+# plots/ - REMOVED from gitignore to include example outputs
+# *.png - REMOVED to show pipeline capabilities
+# *.pdf - REMOVED for publication-ready figures
+# *.svg - REMOVED for vector graphics
 
 # Log files
 logs/
