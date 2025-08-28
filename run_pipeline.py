@@ -25,7 +25,7 @@ def run_command(command, description):
     try:
         # Use the virtual environment Python
         if command.startswith('python'):
-            command = command.replace('python', '/Users/fenosoa/Desktop/Visium_data/.venv/bin/python', 1)
+            command = command.replace('python', '/lustre10/scratch/fenosoa/visium_spatial_integration/.venv/bin/python', 1)
         
         result = subprocess.run(command, shell=True, check=True, 
                               capture_output=True, text=True)
@@ -57,16 +57,21 @@ def check_environment():
     print("🔍 Checking Python environment...")
     
     # Check if virtual environment exists
-    venv_path = Path("/Users/fenosoa/Desktop/Visium_data/.venv")
+    venv_path = Path("/lustre10/scratch/fenosoa/visium_spatial_integration/.venv")
     if not venv_path.exists():
         print("❌ Virtual environment not found!")
-        print("Please run: python -m venv .venv")
-        return False
+        print("Let's run: python -m venv .venv")
+        subprocess.run(
+            "python -m venv .venv",
+            shell=True, check=True, capture_output=True, text=True
+        )
+        print("✅ Virtual environment created")
+        # return True
     
     # Check if required packages are installed
     try:
         result = subprocess.run(
-            "/Users/fenosoa/Desktop/Visium_data/.venv/bin/python -c 'import scanpy, pandas, anndata'",
+            "/lustre10/scratch/fenosoa/visium_spatial_integration/.venv/bin/python -c 'import scanpy, pandas, anndata'",
             shell=True, check=True, capture_output=True, text=True
         )
         print("✅ Core packages available")
@@ -75,7 +80,7 @@ def check_environment():
         print("❌ Required packages not installed!")
         print("Installing packages from requirements.txt...")
         return run_command(
-            "/Users/fenosoa/Desktop/Visium_data/.venv/bin/pip install -r requirements.txt",
+            "/lustre10/scratch/fenosoa/visium_spatial_integration/.venv/bin/pip install -r requirements.txt",
             "Installing required packages"
         )
 
