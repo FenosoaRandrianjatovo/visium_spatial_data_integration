@@ -1,4 +1,4 @@
-# 🧬 Visium Spatial Transcriptomics Integration Pipeline for our Grant
+# 🧬 Visium Spatial Transcriptomics Data Integration Pipeline for our Grant
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -112,8 +112,8 @@ The pipeline generates comprehensive visualizations that showcase both technical
 ### **1. Clone Repository**
 
 ```bash
-git clone https://github.com/FenosoaRandrianjatovo/visium_spatial_integration.git
-cd visium_spatial_integration
+git clone https://github.com/FenosoaRandrianjatovo/visium_spatial_data_integration.git
+cd visium_spatial_data_integration
 ```
 ### **2. Installation of the requirements**
 ```bash
@@ -362,7 +362,7 @@ If you use this pipeline in your research, please cite:
   title={Visium Spatial Transcriptomics Integration Pipeline},
   author={Fenosoa Randrianjatovo and Amadou Barry},
   year={2025},
-  url={https://github.com/Fenosoa_Randrianjatovo/visium_spatial_integration}
+  url={https://github.com/Fenosoa_Randrianjatovo/visium_spatial_data_integration}
 }
 ```
 
@@ -390,7 +390,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 **🚀 Ready to explore spatial biology? Clone this repo and discover the spatial organization of your tissue!**
 
 ```bash
-git clone https://github.com/FenosoaRandrianjatovo/visium_spatial_integration.git
-cd visium_spatial_integration
+git clone https://github.com/FenosoaRandrianjatovo/visium_spatial_data_integration.git
+cd visium_spatial_data_integration
 python run_pipeline.py
 ```
