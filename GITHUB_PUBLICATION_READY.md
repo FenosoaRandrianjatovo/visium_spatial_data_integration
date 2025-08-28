@@ -199,4 +199,4 @@ The Visium Spatial Transcriptomics Integration Pipeline is now complete but not 
 
 **Repository URL**: `https://github.com/FenosoaRandrianjatovo/visium_spatial_integration`
 
-**Tagline**: *"Complete end-to-end pipeline for Visium spatial transcriptomics data integration with publication-ready visualizations and biological insights"*
+**Tagline**: *"Complete end-to-end pipeline for Visium spatial transcriptomics data integration "*
