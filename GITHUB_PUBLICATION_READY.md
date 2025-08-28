@@ -197,6 +197,6 @@ plots/integration/spatialglue_clusters_detailed.png     # Detailed clustering
 
 The Visium Spatial Transcriptomics Integration Pipeline is now complete but not  thoroughly tested, so it is not ready for publication on GitHub. The repository contains everything needed for researchers to reproduce the analysis, understand the biological insights, and apply the methods to their own spatial transcriptomics data.
 
-**Repository URL Ready**: `https://github.com/FenosoaRandrianjatovo/visium_spatial_integration`
+**Repository URL **: `https://github.com/FenosoaRandrianjatovo/visium_spatial_integration`
 
 **Tagline**: *"Complete end-to-end pipeline for Visium spatial transcriptomics data integration with publication-ready visualizations and biological insights"*
