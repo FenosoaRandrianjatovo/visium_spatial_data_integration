@@ -245,28 +245,12 @@ To use your own Visium data:
 
 ### **Example Data Download Script**
 
-Create this script to download demo data:
+Run  this script to download demo data used in this repo:
 
 ```bash
-#!/bin/bash
-# download_demo_data.sh
-
-echo "📥 Downloading Visium demo data..."
-
-# Create directories
-mkdir -p Data/Visium_Spatial/rawData_mouseStStVisium/countTable_mouseStStVisium
-mkdir -p Data/Visium_spatial_with_ABs/rawData_mouseStStWithABsVisium
-
-# Download from the  data source in Charlotte's lab: https://livercellatlas.org/download.php
-# To make it easy to follow You can download the Data from my drive (It ready to use for your test)
-
-wget -O Data/Visium_Spatial/rawData_mouseStStVisium/countTable_mouseStStVisium/matrix.mtx.gz "https://drive.usercontent.google.com/download?id=1G8mH9d2rFxFHQ2TiojeL2Ov2bH5gcNH_&export=download"
-wget -O Data/Visium_Spatial/rawData_mouseStStVisium/countTable_mouseStStVisium/barcodes.tsv.gz "https://drive.usercontent.google.com/uc?id=1dMD2vHQM00ho3E2om8vv_VSIYfSH5wt-&export=download"
-wget -O Data/Visium_Spatial/rawData_mouseStStVisium/countTable_mouseStStVisium/features.tsv.gz "https://drive.usercontent.google.com/uc?id=1H4Ysxt6XFaG6Y0Sa1Hmo7yp0vCnsi94S&export=download"
-
-echo "✅ Data download complete!"
-echo "🚀 Ready to run: python run_pipeline.py"
+./download_demo_data.sh
 ```
+
 
 ## 🔬 Scientific Applications
 
