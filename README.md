@@ -390,7 +390,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 **🚀 Ready to explore spatial biology? Clone this repo and discover the spatial organization of your tissue!**
 
 ```bash
-git clone https://github.com/your-username/visium-spatial-integration.git
-cd visium-spatial-integration
+git clone https://github.com/FenosoaRandrianjatovo/visium_spatial_integration.git
+cd visium_spatial_integration
 python run_pipeline.py
 ```
