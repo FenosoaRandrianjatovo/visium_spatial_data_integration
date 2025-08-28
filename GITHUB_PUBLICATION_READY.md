@@ -1,4 +1,4 @@
-# 🚀 GitHub  Not Ready for Publication - Visium Spatial Integration Pipeline
+# 🚀 GitHub  Not Yet  Ready for Publication - Visium Spatial Integration Pipeline
 
 ## 📅 Project Completion Summary
 **Date**: August 28, 2025  
