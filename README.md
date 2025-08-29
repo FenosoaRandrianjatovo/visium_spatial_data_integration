@@ -6,37 +6,10 @@
 
 A complete end-to-end pipeline for processing and integrating **Visium spatial transcriptomics data**. This pipeline handles multi-modal data (RNA + Protein), performs quality control, spatial integration, and generates ready visualizations.
 
-## 🎯 Pipeline Overview
+## 🎯 Description of the Dataset used in this pipeline
 
-### **Why Spatial Data Integration?**
 
-- **🔬 Multi-sample Analysis**: Integrate data across different samples/conditions
-- **🧪 Multi-modal Integration**: Combine RNA and protein data from the same tissue  
-- **📍 Spatial Context Preservation**: Maintain spatial relationships during integration
-- **⚖️ Batch Effect Correction**: Remove technical artifacts while preserving biological variation
-- **🗺️ Zonation Analysis**: Study tissue organization patterns (e.g., liver zonation)
 
-### **Key Features**
-
-✅ **Robust Data Loading**: Handles 10X matrix and H5 formats automatically  
-✅ **Quality Control**: Comprehensive QC metrics and filtering  
-✅ **Spatial Integration**: Multi-dataset harmonization with Harmony/SpatialGlue  
-✅ **Visualization**: Publication-ready plots and spatial maps  
-✅ **Reproducible**: Virtual environment ensures consistent results  
-
-## 📊 Expected Results
-
-This pipeline successfully processes:
-- **Dataset 1**: Visium Spatial (5,862 spots × 16,887 genes, 5 samples)
-- **Dataset 2**: Visium + Antibodies (1,659 spots × 14,671 genes, 80+ proteins)
-- **Integration**: Combined 7,521 spots with preserved spatial organization
-
-### **Generated Outputs**
-
-1. **Quality Control Plots**: Gene/cell distributions, sample compositions
-2. **Spatial Maps**: UMAP embeddings colored by zonation patterns  
-3. **Integration Results**: Before/after comparison, batch correction assessment
-4. **Biological Insights**: Liver zonation patterns (Periportal → Central → Portal)
 
 ## 🎨 Example Results & Visualizations
 
