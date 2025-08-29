@@ -120,7 +120,7 @@ Run  this script to download demo data used in this repo:
 ./download_demo_data.sh
 ```
 
-This pipeline uses mouse liver Visium spatial transcriptomics data. Create the following directory structure:
+This pipeline uses mouse liver Visium spatial transcriptomics data from Charlotte Scott and 	Martin Guilliams's Lab. Create the following directory structure:
 
 ```bash
 mkdir -p Data/Visium_Spatial/rawData_mouseStStVisium/countTable_mouseStStVisium
