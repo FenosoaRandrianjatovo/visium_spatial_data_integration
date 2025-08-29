@@ -42,10 +42,10 @@ This pipeline successfully processes:
 
 The pipeline generates comprehensive visualizations that showcase both technical quality and biological insights. Below are example outputs demonstrating the pipeline's capabilities:
 
-### **📊 Quality Control & Data Overview**
+### **📊 Integration summaryw**
 
 <div align="center">
-  <img src="plots/visium_spatial_qc_metrics.png" alt="Quality Control Metrics" width="800"/>
+  <img src="results/summary/integration_summary.png" alt="Quality Control Metrics" width="800"/>
   <br><i>Quality control metrics for the standard Visium spatial dataset showing gene/spot distributions, sample compositions, and spatial organization patterns</i>
 </div>
 
