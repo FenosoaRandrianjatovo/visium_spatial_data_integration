@@ -67,7 +67,7 @@ Data/
 
 The pipeline generates comprehensive visualizations that showcase both technical quality and biological insights. Below are example outputs demonstrating the pipeline's capabilities:
 
-### ** Spatial Data Integration Summary**
+### **Spatial Data Integration Summary**
 
 <div align="center">
   <img src="results/summary/integration_summary.png" alt="Quality Control Metrics" width="800"/>
@@ -75,7 +75,7 @@ The pipeline generates comprehensive visualizations that showcase both technical
 </div>
 
 
-### ** Spatial Organization Patterns**
+### **Spatial Organization Patterns**
 
 <div align="center">
   <img src="plots/visium_spatial_umap.png" alt="Spatial UMAP Patterns" width="800"/>
@@ -88,7 +88,7 @@ The pipeline generates comprehensive visualizations that showcase both technical
 - **Metabolic Organization**: Spatial arrangement reflects liver metabolic functions
 - **Sample Integration**: Multiple samples show consistent spatial biology
 
-### **🔗 Multi-Modal Integration Results**
+### **Multi-Modal Integration Results**
 
 <div align="center">
   <img src="plots/integration/spatialglue_integration_overview.png" alt="Integration Overview" width="800"/>
