@@ -9,7 +9,7 @@ A complete end-to-end pipeline for processing and integrating **Visium spatial t
 ## Description of the Dataset used in this pipeline
 
 
-### **1. Prepare Input Data**
+#### **1. Prepare Input Data**
 
 **⚠️ IMPORTANT**: The raw data files are too large for GitHub. You need to download them separately.
 
@@ -19,7 +19,7 @@ A complete end-to-end pipeline for processing and integrating **Visium spatial t
 
 The pipeline was designed and tested with mouse liver spatial transcriptomics data:
 
-#### Standard Visium Data
+#### **2. Standard Visium Data
 
 - Source: 10X Visum From Charlotte
 - Format: 10X Cell Ranger output (matrix.mtx.gz, barcodes.tsv.gz, features.tsv.gz)
