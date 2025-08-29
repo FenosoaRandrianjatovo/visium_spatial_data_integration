@@ -13,7 +13,7 @@ A complete end-to-end pipeline for processing and integrating **Visium spatial t
 
 **⚠️ IMPORTANT**: The raw data files are too large for GitHub. You need to download them separately.
 
-#### **Download the Demo Dataset from Charlotte Scott and Martin Guilliams's Lab** [Link)(https://livercellatlas.org/download.php)
+#### **Download the Demo Dataset from Charlotte Scott and Martin Guilliams's Lab** [Link](https://livercellatlas.org/download.php)
 
 
 ### **Example Data Download Script**
