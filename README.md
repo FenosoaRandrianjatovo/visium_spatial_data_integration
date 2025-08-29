@@ -25,7 +25,6 @@ The pipeline was designed and tested with mouse liver spatial transcriptomics da
 - Format: 10X Cell Ranger output (matrix.mtx.gz, barcodes.tsv.gz, features.tsv.gz)
 - Sample info: Contains 5 biological samples (JBO1-JBO4, CAP02)
 - Annotations: Includes liver zonation information (Periportal, Central, Mid, Portal)
-- 
 #### **3. Visium + Antibodies Data**
 
 - Source: Multi-modal Visium dataset from Charlotte
