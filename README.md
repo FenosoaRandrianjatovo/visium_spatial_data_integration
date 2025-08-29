@@ -97,7 +97,7 @@ The pipeline generates comprehensive visualizations that showcase both technical
 
 
 
-### ** Detailed Clustering & Cell Type Identification**
+### **Detailed Clustering & Cell Type Identification**
 
 <div align="center">
   <img src="plots/integration/spatialglue_clusters_detailed.png" alt="Detailed Clusters" width="600"/>
@@ -144,7 +144,7 @@ ls processed_data/          # Clean H5AD files
 ls integrated_data/         # Final integrated dataset
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 visium-spatial-integration/
@@ -175,7 +175,7 @@ visium-spatial-integration/
 
 ## Data Sources & Preparation
 
-### **Option 1: Use Demo Dataset (Recommended)**
+### **Use Demo Dataset (Recommended)**
 
 The pipeline was designed and tested with mouse liver spatial transcriptomics data:
 
@@ -190,25 +190,6 @@ The pipeline was designed and tested with mouse liver spatial transcriptomics da
 - **Format**: H5 file + ADT CSV
 - **Features**: ~80 protein markers alongside RNA
 - **Spatial info**: Same tissue with protein quantification
-
-### **Option 2: Use Your Own Data**
-
-To use your own Visium data:
-
-1. **Organize your files** to match the expected structure
-2. **Update annotation column names** in the scripts if needed
-3. **Modify sample identifiers** in the processing scripts
-
-#### **File Format Requirements**
-
-- **10X Matrix**: Standard Cell Ranger output
-- **H5 Files**: 10X HDF5 format with `/matrix` group
-- **Annotations**: CSV with columns:
-  - `spot`: Barcode identifiers
-  - `sample`: Sample/batch identifiers  
-  - `zonationGroup`: Biological groupings (optional)
-  - Additional metadata columns
-
 
 ### **Key Parameters**
 
@@ -231,7 +212,7 @@ resolution = 0.5      # Clustering resolution
 - **Storage**: 2GB+ free space for outputs
 - **OS**: macOS, Linux, Windows
 
-## 🎯 Validation & Testing
+## Validation & Testing
 
 ### **Pipeline Validation**
 
