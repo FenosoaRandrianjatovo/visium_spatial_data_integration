@@ -42,7 +42,7 @@ This pipeline successfully processes:
 
 The pipeline generates comprehensive visualizations that showcase both technical quality and biological insights. Below are example outputs demonstrating the pipeline's capabilities:
 
-### **📊 Integration summaryw**
+### **📊 Spatial Data Integration Summary **
 
 <div align="center">
   <img src="results/summary/integration_summary.png" alt="Quality Control Metrics" width="800"/>
