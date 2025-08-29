@@ -82,11 +82,7 @@ The pipeline generates comprehensive visualizations that showcase both technical
   <br><i>Spatial UMAP embeddings revealing liver zonation patterns across multiple samples and biological annotations</i>
 </div>
 
-**Biological discoveries:**
-- **Zonation Gradient**: Clear spatial organization from Periportal (blue) → Mid (green) → Central (red) regions
-- **Cross-sample Consistency**: Zonation patterns preserved across different biological samples  
-- **Metabolic Organization**: Spatial arrangement reflects liver metabolic functions
-- **Sample Integration**: Multiple samples show consistent spatial biology
+
 
 ### **Multi-Modal Integration Results**
 
