@@ -95,11 +95,7 @@ The pipeline generates comprehensive visualizations that showcase both technical
   <br><i>Comprehensive integration assessment showing successful batch correction and dataset harmonization</i>
 </div>
 
-**Integration achievements:**
-- **Top Row**: Before/after integration comparison demonstrates effective batch correction
-- **Dataset Mixing**: Successful integration of standard Visium + antibody datasets
-- **Spatial Preservation**: Zonation patterns maintained during integration process
-- **Technical Success**: Batch effects removed while preserving biological variation
+
 
 ### ** Detailed Clustering & Cell Type Identification**
 
@@ -108,11 +104,6 @@ The pipeline generates comprehensive visualizations that showcase both technical
   <br><i>High-resolution clustering results revealing distinct spatial domains and cell populations</i>
 </div>
 
-**Clustering insights:**
-- **Spatial Domains**: Distinct clusters correspond to anatomical liver zones
-- **Cell Type Resolution**: Integration enhances cell type identification
-- **Biological Validation**: Clusters align with known liver zonation biology
-- **Multi-modal Enhancement**: Protein data refines spatial domain boundaries
 
 
 ## 🚀 Quick Start
@@ -139,7 +130,6 @@ python run_pipeline.py
 ```
 
 **That's it!** The pipeline will:
-- Create virtual environment automatically
 - Install all required packages  
 - Process both datasets
 - Perform spatial integration
