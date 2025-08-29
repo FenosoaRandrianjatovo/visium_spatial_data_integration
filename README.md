@@ -19,14 +19,14 @@ A complete end-to-end pipeline for processing and integrating **Visium spatial t
 
 The pipeline was designed and tested with mouse liver spatial transcriptomics data:
 
-#### **2. Standard Visium Data
+#### **2. Standard Visium Data**
 
 - Source: 10X Visum From Charlotte
 - Format: 10X Cell Ranger output (matrix.mtx.gz, barcodes.tsv.gz, features.tsv.gz)
 - Sample info: Contains 5 biological samples (JBO1-JBO4, CAP02)
 - Annotations: Includes liver zonation information (Periportal, Central, Mid, Portal)
 - 
-#### Visium + Antibodies Data
+#### **3. Visium + Antibodies Data**
 
 - Source: Multi-modal Visium dataset from Charlotte
 - Format: H5 file + ADT CSV
