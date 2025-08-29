@@ -46,14 +46,9 @@ The pipeline generates comprehensive visualizations that showcase both technical
 
 <div align="center">
   <img src="results/summary/integration_summary.png" alt="Quality Control Metrics" width="800"/>
-  <br><i>Quality control metrics for the standard Visium spatial dataset showing gene/spot distributions, sample compositions, and spatial organization patterns</i>
+  <br><i>Integrated Data summuary ( RNA+ Protein) </i>
 </div>
 
-**Key insights from QC plots:**
-- **Top Left**: Gene count distribution shows high-quality spots with 200-8000 genes detected
-- **Top Right**: Total count distribution indicates successful library preparation  
-- **Bottom Panels**: Sample distribution reveals balanced representation across 5 biological samples (JBO1-JBO4, CAP02)
-- **Spatial UMAP**: Clear zonation patterns visible in original spatial coordinates
 
 ### **🗺️ Spatial Organization Patterns**
 
