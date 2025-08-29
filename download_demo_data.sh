@@ -20,7 +20,7 @@ echo ""
 # Display required files
 echo "📋 REQUIRED DATA FILES:"
 echo "----------------------"
-echo "You need to obtain these files from your data source:"
+echo "You need to obtain these files from Charlotte data source:"
 echo ""
 echo "🔬 Standard Visium Spatial Data:"
 echo "   Data/Visium_Spatial/annot_mouseStStVisium.csv"
