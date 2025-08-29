@@ -15,7 +15,7 @@ A complete end-to-end pipeline for processing and integrating **Visium spatial t
 
 #### **Download the Demo Dataset from Charlotte Scott and Martin Guilliams's Lab** . 
 
-**⚠️[Here is the link](https://livercellatlas.org/download.php)**
+**🧬 [Here is the link](https://livercellatlas.org/download.php)** to download the dataset manually.
 
 
 ### **Example Data Download Script**
