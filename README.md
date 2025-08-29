@@ -4,10 +4,46 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Spatial Analysis](https://img.shields.io/badge/analysis-spatial-green.svg)](https://www.10xgenomics.com/products/spatial-gene-expression)
 
-A complete end-to-end pipeline for processing and integrating **Visium spatial transcriptomics data**. This pipeline handles multi-modal data (RNA + Protein), performs quality control, spatial integration, and generates ready visualizations.
+A complete end-to-end pipeline for processing and integrating **Visium spatial transcriptomics data**. This pipeline handles multi-modal data (RNA + Protein), performs data integration, and generates ready visualizations.
 
 ## 🎯 Description of the Dataset used in this pipeline
 
+
+### **1. Prepare Input Data**
+
+**⚠️ IMPORTANT**: The raw data files are too large for GitHub. You need to download them separately.
+
+#### **Download the Demo Dataset from Charlotte Scott and Martin Guilliams's Lab**
+
+
+### **Example Data Download Script**
+
+Run  this script to download demo data used in this repo:
+
+```bash
+./download_demo_data.sh
+```
+
+
+#### **Required Files**
+
+You need to obtain these files (see **Data Sources** section below):
+
+```
+Data/
+├── Visium_Spatial/
+│   ├── annot_mouseStStVisium.csv                    # Spot annotations
+│   └── rawData_mouseStStVisium/
+│       └── countTable_mouseStStVisium/
+│           ├── barcodes.tsv.gz                      # 10X barcodes
+│           ├── features.tsv.gz                      # 10X features  
+│           └── matrix.mtx.gz                        # 10X count matrix
+└── Visium_spatial_with_ABs/
+    ├── annot_mouseStStWithABsVisium.csv            # Antibody data annotations
+    └── rawData_mouseStStWithABsVisium/
+        ├── countTable_ADT_mouseStStVisiumWithABs.csv    # ADT counts
+        └── countTable_mouseStStVisiumWithABs.h5         # H5 format data
+```
 
 
 
@@ -77,41 +113,6 @@ python -m venv .venv
 source .venv/bin/activate
 python install -r requirements.txt
 deactivate 
-```
-### **3. Prepare Input Data**
-
-**⚠️ IMPORTANT**: The raw data files are too large for GitHub. You need to download them separately.
-
-#### **Download the Demo Dataset from Charlotte Scott and 	Martin Guilliams's Lab**
-
-
-### **Example Data Download Script**
-
-Run  this script to download demo data used in this repo:
-
-```bash
-./download_demo_data.sh
-```
-
-
-#### **Required Files**
-
-You need to obtain these files (see **Data Sources** section below):
-
-```
-Data/
-├── Visium_Spatial/
-│   ├── annot_mouseStStVisium.csv                    # Spot annotations
-│   └── rawData_mouseStStVisium/
-│       └── countTable_mouseStStVisium/
-│           ├── barcodes.tsv.gz                      # 10X barcodes
-│           ├── features.tsv.gz                      # 10X features  
-│           └── matrix.mtx.gz                        # 10X count matrix
-└── Visium_spatial_with_ABs/
-    ├── annot_mouseStStWithABsVisium.csv            # Antibody data annotations
-    └── rawData_mouseStStWithABsVisium/
-        ├── countTable_ADT_mouseStStVisiumWithABs.csv    # ADT counts
-        └── countTable_mouseStStVisiumWithABs.h5         # H5 format data
 ```
 
 ### **3. Run Pipeline**
