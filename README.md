@@ -47,11 +47,11 @@ Data/
 
 
 
-## 🎨 Example Results & Visualizations
+## Example Results & Visualizations
 
 The pipeline generates comprehensive visualizations that showcase both technical quality and biological insights. Below are example outputs demonstrating the pipeline's capabilities:
 
-### **📊 Spatial Data Integration Summary**
+### ** Spatial Data Integration Summary**
 
 <div align="center">
   <img src="results/summary/integration_summary.png" alt="Quality Control Metrics" width="800"/>
@@ -59,7 +59,7 @@ The pipeline generates comprehensive visualizations that showcase both technical
 </div>
 
 
-### **🗺️ Spatial Organization Patterns**
+### ** Spatial Organization Patterns**
 
 <div align="center">
   <img src="plots/visium_spatial_umap.png" alt="Spatial UMAP Patterns" width="800"/>
@@ -85,7 +85,7 @@ The pipeline generates comprehensive visualizations that showcase both technical
 - **Spatial Preservation**: Zonation patterns maintained during integration process
 - **Technical Success**: Batch effects removed while preserving biological variation
 
-### **🎯 Detailed Clustering & Cell Type Identification**
+### ** Detailed Clustering & Cell Type Identification**
 
 <div align="center">
   <img src="plots/integration/spatialglue_clusters_detailed.png" alt="Detailed Clusters" width="600"/>
@@ -142,32 +142,32 @@ ls integrated_data/         # Final integrated dataset
 
 ```
 visium-spatial-integration/
-├── 📜 Core Pipeline Scripts
+├── Core Pipeline Scripts
 │   ├── data_processing.py           # Data loading & preprocessing
 │   ├── spatial_integration.py       # Multi-dataset integration  
 │   ├── downstream_analysis.py       # Advanced analysis
 │   └── run_pipeline.py             # Master pipeline runner
 │
-├── 🔧 Utilities & Testing
+├── Utilities & Testing
 │   ├── test_pipeline.py            # Validation tests
 │   ├── showcase_results.py         # Results demonstration
 │   └── pipeline_summary.py         # Summary statistics
 │
-├── 📋 Documentation  
+├── Documentation  
 │   ├── README.md                    # This file
 │   ├── requirements.txt             # Python dependencies
 │   └── PIPELINE_SUCCESS.md         # Detailed results
 │
-├── 📊 Input Data (you download)
+├── Input Data (you download)
 │   └── Data/                        # Raw Visium data files
 │
-└── 📈 Generated Outputs (pipeline creates)
+└── Generated Outputs (pipeline creates)
     ├── processed_data/              # Clean datasets
     ├── integrated_data/             # Integrated results
     └── plots/                       # All visualizations
 ```
 
-## 📥 Data Sources & Preparation
+## Data Sources & Preparation
 
 ### **Option 1: Use Demo Dataset (Recommended)**
 
@@ -203,31 +203,6 @@ To use your own Visium data:
   - `zonationGroup`: Biological groupings (optional)
   - Additional metadata columns
 
-
-
-## 🔬 Scientific Applications
-
-### **Demonstrated Applications**
-
-- **🧬 Liver Zonation Analysis**: Spatial organization of hepatic functions
-- **🔄 Multi-sample Integration**: Comparison across biological conditions
-- **🧪 Multi-modal Analysis**: RNA + protein spatial co-localization  
-- **📊 Quality Control**: Comprehensive data validation workflows
-
-### **Potential Extensions**
-
-- **Disease vs. Healthy**: Compare pathological tissue organization
-- **Development Studies**: Track spatial patterns over time
-- **Drug Effects**: Assess treatment impact on tissue architecture
-- **Species Comparison**: Cross-species spatial organization
-
-## ⚙️ Technical Details
-
-### **Integration Methods**
-
-- **Primary**: Harmony batch correction (robust, fast)
-- **Alternative**: SpatialGlue (when available)
-- **Fallback**: Scanpy basic integration
 
 ### **Key Parameters**
 
@@ -272,27 +247,9 @@ python pipeline_summary.py
 - **Visualization**: ~2-3 minutes
 - **Total**: ~10-15 minutes for complete analysis
 
-## 🤝 Contributing
-
-### **Adding New Features**
-
-1. Fork the repository
-2. Create feature branch: `git checkout -b feature-name`
-3. Add your improvements
-4. Test with `python test_pipeline.py`
-5. Submit pull request
-
-### **Reporting Issues**
-
-Please include:
-- Error messages and logs
-- Data format details
-- System information
-- Steps to reproduce
 
 ## 📚 Dependencies
 
-All automatically installed via `requirements.txt`:
 
 ```
 scanpy>=1.9.0          # Single-cell analysis
@@ -306,30 +263,10 @@ numpy<2.3              # Numerical computing (version locked)
 
 
 
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE) for details.
-
-## 🏆 Success Stories
-
-### **Validated Results**
-
-✅ **5,862 spatial spots** successfully processed  
-✅ **16,887 genes** analyzed across multiple samples  
-✅ **Liver zonation patterns** clearly identified  
-✅ **Multi-modal integration** of RNA + 80 proteins  
-
 
 ---
 
-**🚀 Ready to explore spatial biology? Clone this repo and discover the spatial organization of your tissue!**
-
-```bash
-git clone https://github.com/FenosoaRandrianjatovo/visium_spatial_data_integration.git
-cd visium_spatial_data_integration
-python run_pipeline.py
-```
-## 📖 Citation
+## Citation
 
 If you use this pipeline in your research, please cite:
 
@@ -347,3 +284,10 @@ If you use this pipeline in your research, please cite:
 - **SpatialGlue**: Yahui Long et al. (2024) Nature Methods
 - **Scanpy**: Wolf et al. (2018) Genome Biology  
 - **10X Visium**: 10X Genomics Spatial Gene Expression Solution
+
+
+## License
+
+MIT License - see [LICENSE](LICENSE) for details.
+
+
