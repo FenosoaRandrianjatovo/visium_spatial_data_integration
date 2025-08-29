@@ -1,4 +1,4 @@
-# 🧬 Visium Spatial Transcriptomics Data Integration Pipeline for our Grant
+# 🧬 Visium Spatial Transcriptomics Data Integration Pipeline
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -6,7 +6,7 @@
 
 A complete end-to-end pipeline for processing and integrating **Visium spatial transcriptomics data**. This pipeline handles multi-modal data (RNA + Protein), performs data integration, and generates ready visualizations.
 
-## 🎯 Description of the Dataset used in this pipeline
+## Description of the Dataset used in this pipeline
 
 
 ### **1. Prepare Input Data**
